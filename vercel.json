@@ -1,18 +1,8 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "next.config.js",
-      "use": "@vercel/next"
-    }
-  ],
+  "framework": "nextjs",
   "env": {
     "NEXT_PUBLIC_INSTANT_APP_ID": "86b119d5-0eb7-4060-8f7a-b36fbb790e4a"
-  },
-  "framework": "nextjs",
-  "regions": ["iad1"],
-  "github": {
-    "silent": true
   }
 }
 
